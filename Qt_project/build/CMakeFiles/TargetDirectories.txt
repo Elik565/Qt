@@ -1,0 +1,5 @@
+/home/elik565/Documents/Qt/Qt_project/build/CMakeFiles/QtApp.dir
+/home/elik565/Documents/Qt/Qt_project/build/CMakeFiles/edit_cache.dir
+/home/elik565/Documents/Qt/Qt_project/build/CMakeFiles/rebuild_cache.dir
+/home/elik565/Documents/Qt/Qt_project/build/CMakeFiles/QtApp_autogen_timestamp_deps.dir
+/home/elik565/Documents/Qt/Qt_project/build/CMakeFiles/QtApp_autogen.dir
