@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named math_lib
+
+# Build rule for target.
+math_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 math_lib
+.PHONY : math_lib
+
+# fast build rule for target.
+math_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math_lib.dir/build.make CMakeFiles/math_lib.dir/build
+.PHONY : math_lib/fast
+
+#=============================================================================
 # Target rules for targets named my_program
 
 # Build rule for target.
@@ -153,6 +166,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+math.o: math.cpp.o
+.PHONY : math.o
+
+# target to build an object file
+math.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math_lib.dir/build.make CMakeFiles/math_lib.dir/math.cpp.o
+.PHONY : math.cpp.o
+
+math.i: math.cpp.i
+.PHONY : math.i
+
+# target to preprocess a source file
+math.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math_lib.dir/build.make CMakeFiles/math_lib.dir/math.cpp.i
+.PHONY : math.cpp.i
+
+math.s: math.cpp.s
+.PHONY : math.s
+
+# target to generate assembly for a file
+math.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math_lib.dir/build.make CMakeFiles/math_lib.dir/math.cpp.s
+.PHONY : math.cpp.s
+
 utils.o: utils.cpp.o
 .PHONY : utils.o
 
@@ -185,10 +222,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... math_lib"
 	@echo "... my_program"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... math.o"
+	@echo "... math.i"
+	@echo "... math.s"
 	@echo "... utils.o"
 	@echo "... utils.i"
 	@echo "... utils.s"

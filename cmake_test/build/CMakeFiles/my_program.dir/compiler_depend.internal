@@ -3,6 +3,7 @@
 
 CMakeFiles/my_program.dir/main.cpp.o
  /home/elik565/Documents/Qt/cmake_test/main.cpp
+ /home/elik565/Documents/Qt/cmake_test/math.hpp
  /home/elik565/Documents/Qt/cmake_test/utils.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h

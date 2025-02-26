@@ -108,6 +108,7 @@ my_program_EXTERNAL_OBJECTS =
 my_program: CMakeFiles/my_program.dir/main.cpp.o
 my_program: CMakeFiles/my_program.dir/utils.cpp.o
 my_program: CMakeFiles/my_program.dir/build.make
+my_program: libmath_lib.a
 my_program: CMakeFiles/my_program.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/elik565/Documents/Qt/cmake_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable my_program"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_program.dir/link.txt --verbose=$(VERBOSE)

@@ -129,4 +129,5 @@ CMakeFiles/my_program.dir/main.cpp.o: \
  /usr/include/c++/14/bits/basic_ios.tcc \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc \
- /home/elik565/Documents/Qt/cmake_test/utils.hpp
+ /home/elik565/Documents/Qt/cmake_test/utils.hpp \
+ /home/elik565/Documents/Qt/cmake_test/math.hpp
