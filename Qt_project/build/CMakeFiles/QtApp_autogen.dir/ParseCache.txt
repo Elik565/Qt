@@ -395,7 +395,10 @@
  mdp:/usr/include/qt6/QtGui/qtransform.h
  mdp:/usr/include/qt6/QtGui/qwindowdefs.h
  mdp:/usr/include/qt6/QtWidgets/QMainWindow
+ mdp:/usr/include/qt6/QtWidgets/QPushButton
+ mdp:/usr/include/qt6/QtWidgets/qabstractbutton.h
  mdp:/usr/include/qt6/QtWidgets/qmainwindow.h
+ mdp:/usr/include/qt6/QtWidgets/qpushbutton.h
  mdp:/usr/include/qt6/QtWidgets/qsizepolicy.h
  mdp:/usr/include/qt6/QtWidgets/qtabwidget.h
  mdp:/usr/include/qt6/QtWidgets/qtwidgets-config.h

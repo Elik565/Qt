@@ -402,7 +402,10 @@ QtApp_autogen/timestamp: /home/elik565/Documents/Qt/Qt_project/CMakeLists.txt \
   /usr/include/qt6/QtGui/qtransform.h \
   /usr/include/qt6/QtGui/qwindowdefs.h \
   /usr/include/qt6/QtWidgets/QMainWindow \
+  /usr/include/qt6/QtWidgets/QPushButton \
+  /usr/include/qt6/QtWidgets/qabstractbutton.h \
   /usr/include/qt6/QtWidgets/qmainwindow.h \
+  /usr/include/qt6/QtWidgets/qpushbutton.h \
   /usr/include/qt6/QtWidgets/qsizepolicy.h \
   /usr/include/qt6/QtWidgets/qtabwidget.h \
   /usr/include/qt6/QtWidgets/qtwidgets-config.h \
@@ -2234,6 +2237,8 @@ QtApp_autogen/EWIEGA46WW/moc_main_window.cpp:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake:
 
+/usr/lib64/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake:
+
 /usr/include/linux/errno.h:
 
 /usr/include/qt6/QtWidgets/qtwidgets-config.h:
@@ -2339,10 +2344,6 @@ CMakeFiles/3.30.7/CMakeSystem.cmake:
 /usr/include/c++/14/ext/atomicity.h:
 
 /usr/include/c++/14/ext/alloc_traits.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/include/bits/types/wint_t.h:
 
 /usr/include/qt6/QtCore/q20functional.h:
 
@@ -2580,6 +2581,12 @@ QtApp_autogen/mocs_compilation.cpp:
 
 /usr/include/bits/types/error_t.h:
 
+/usr/lib64/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake:
+
+/usr/include/qt6/QtGui/qfontinfo.h:
+
 /usr/include/c++/14/system_error:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake:
@@ -2617,6 +2624,12 @@ QtApp_autogen/mocs_compilation.cpp:
 /usr/include/c++/14/array:
 
 /usr/include/c++/14/bits/memory_resource.h:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake:
+
+/usr/include/bits/types/wint_t.h:
+
+/usr/include/qt6/QtWidgets/qabstractbutton.h:
 
 /usr/include/sys/single_threaded.h:
 
@@ -2870,6 +2883,12 @@ QtApp_autogen/moc_predefs.h:
 
 /usr/include/c++/14/tr1/legendre_function.tcc:
 
+/usr/lib64/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake:
+
+/usr/lib64/cmake/Qt6/QtFeatureCommon.cmake:
+
+/usr/include/c++/14/bits/exception_defines.h:
+
 /usr/include/assert.h:
 
 /usr/include/qt6/QtCore/qstringmatcher.h:
@@ -2879,8 +2898,6 @@ QtApp_autogen/moc_predefs.h:
 /usr/include/bits/types/__locale_t.h:
 
 /usr/include/c++/14/bits/ios_base.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake:
 
 /usr/include/c++/14/pstl/glue_numeric_defs.h:
 
@@ -2969,12 +2986,6 @@ CMakeFiles/3.30.7/CMakeCXXCompiler.cmake:
 /usr/include/c++/14/string:
 
 /usr/include/qt6/QtCore/qendian.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake:
-
-/usr/include/qt6/QtGui/qfontinfo.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake:
 
 /usr/include/qt6/QtCore/qexceptionhandling.h:
 
@@ -3192,9 +3203,13 @@ CMakeFiles/3.30.7/CMakeCXXCompiler.cmake:
 
 /usr/include/qt6/QtGui/qtguiglobal.h:
 
+/usr/include/qt6/QtWidgets/QPushButton:
+
 /usr/include/c++/14/bits/stl_iterator_base_types.h:
 
 /usr/include/qt6/QtWidgets/qmainwindow.h:
+
+/usr/include/qt6/QtWidgets/qpushbutton.h:
 
 /usr/include/bits/floatn-common.h:
 
@@ -3429,9 +3444,3 @@ CMakeFiles/3.30.7/CMakeCXXCompiler.cmake:
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake:
-
-/usr/lib64/cmake/Qt6/QtFeatureCommon.cmake:
-
-/usr/include/c++/14/bits/exception_defines.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake:

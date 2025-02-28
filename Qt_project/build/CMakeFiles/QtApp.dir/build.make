@@ -70,8 +70,9 @@ include CMakeFiles/QtApp.dir/progress.make
 include CMakeFiles/QtApp.dir/flags.make
 
 QtApp_autogen/timestamp: /usr/lib64/qt6/libexec/moc
+QtApp_autogen/timestamp: /usr/lib64/qt6/libexec/uic
 QtApp_autogen/timestamp: CMakeFiles/QtApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/elik565/Documents/Qt/Qt_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target QtApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/elik565/Documents/Qt/Qt_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target QtApp"
 	/usr/bin/cmake -E cmake_autogen /home/elik565/Documents/Qt/Qt_project/build/CMakeFiles/QtApp_autogen.dir/AutogenInfo.json ""
 	/usr/bin/cmake -E touch /home/elik565/Documents/Qt/Qt_project/build/QtApp_autogen/timestamp
 

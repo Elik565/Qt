@@ -375,7 +375,7 @@
 	[
 		[
 			"/home/elik565/Documents/Qt/Qt_project/main_window.hpp",
-			"Mu",
+			"MU",
 			"EWIEGA46WW/moc_main_window.cpp",
 			null
 		]
@@ -432,15 +432,19 @@
 	"PARALLEL" : 12,
 	"PARSE_CACHE_FILE" : "/home/elik565/Documents/Qt/Qt_project/build/CMakeFiles/QtApp_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib64/qt6/libexec/moc",
-	"QT_UIC_EXECUTABLE" : "",
+	"QT_UIC_EXECUTABLE" : "/usr/lib64/qt6/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 8,
 	"SETTINGS_FILE" : "/home/elik565/Documents/Qt/Qt_project/build/CMakeFiles/QtApp_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/elik565/Documents/Qt/Qt_project/main.cpp", "Mu", null ],
-		[ "/home/elik565/Documents/Qt/Qt_project/main_window.cpp", "Mu", null ]
+		[ "/home/elik565/Documents/Qt/Qt_project/main.cpp", "MU", null ],
+		[ "/home/elik565/Documents/Qt/Qt_project/main_window.cpp", "MU", null ]
 	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
 	"USE_BETTER_GRAPH" : true,
 	"VERBOSITY" : 0
 }
