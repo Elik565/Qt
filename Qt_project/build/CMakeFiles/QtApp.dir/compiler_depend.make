@@ -302,6 +302,7 @@ QtApp_autogen/timestamp: /home/elik565/Documents/Qt/Qt_project/CMakeLists.txt \
   /usr/include/qt6/QtCore/qglobalstatic.h \
   /usr/include/qt6/QtCore/qhash.h \
   /usr/include/qt6/QtCore/qhashfunctions.h \
+  /usr/include/qt6/QtCore/qiodevice.h \
   /usr/include/qt6/QtCore/qiodevicebase.h \
   /usr/include/qt6/QtCore/qiterable.h \
   /usr/include/qt6/QtCore/qiterator.h \
@@ -371,6 +372,7 @@ QtApp_autogen/timestamp: /home/elik565/Documents/Qt/Qt_project/CMakeLists.txt \
   /usr/include/qt6/QtCore/qtversionchecks.h \
   /usr/include/qt6/QtCore/qtypeinfo.h \
   /usr/include/qt6/QtCore/qtypes.h \
+  /usr/include/qt6/QtCore/qurl.h \
   /usr/include/qt6/QtCore/qutf8stringview.h \
   /usr/include/qt6/QtCore/qvariant.h \
   /usr/include/qt6/QtCore/qvarlengtharray.h \
@@ -390,20 +392,37 @@ QtApp_autogen/timestamp: /home/elik565/Documents/Qt/Qt_project/CMakeLists.txt \
   /usr/include/qt6/QtGui/qkeysequence.h \
   /usr/include/qt6/QtGui/qpaintdevice.h \
   /usr/include/qt6/QtGui/qpalette.h \
+  /usr/include/qt6/QtGui/qpen.h \
+  /usr/include/qt6/QtGui/qpicture.h \
   /usr/include/qt6/QtGui/qpixelformat.h \
   /usr/include/qt6/QtGui/qpixmap.h \
   /usr/include/qt6/QtGui/qpolygon.h \
   /usr/include/qt6/QtGui/qregion.h \
   /usr/include/qt6/QtGui/qrgb.h \
   /usr/include/qt6/QtGui/qrgba64.h \
+  /usr/include/qt6/QtGui/qtextcursor.h \
+  /usr/include/qt6/QtGui/qtextdocument.h \
+  /usr/include/qt6/QtGui/qtextformat.h \
+  /usr/include/qt6/QtGui/qtextoption.h \
   /usr/include/qt6/QtGui/qtgui-config.h \
   /usr/include/qt6/QtGui/qtguiexports.h \
   /usr/include/qt6/QtGui/qtguiglobal.h \
   /usr/include/qt6/QtGui/qtransform.h \
   /usr/include/qt6/QtGui/qwindowdefs.h \
+  /usr/include/qt6/QtWidgets/QLabel \
+  /usr/include/qt6/QtWidgets/QLineEdit \
   /usr/include/qt6/QtWidgets/QMainWindow \
   /usr/include/qt6/QtWidgets/QPushButton \
+  /usr/include/qt6/QtWidgets/QVBoxLayout \
+  /usr/include/qt6/QtWidgets/QWidget \
   /usr/include/qt6/QtWidgets/qabstractbutton.h \
+  /usr/include/qt6/QtWidgets/qboxlayout.h \
+  /usr/include/qt6/QtWidgets/qframe.h \
+  /usr/include/qt6/QtWidgets/qgridlayout.h \
+  /usr/include/qt6/QtWidgets/qlabel.h \
+  /usr/include/qt6/QtWidgets/qlayout.h \
+  /usr/include/qt6/QtWidgets/qlayoutitem.h \
+  /usr/include/qt6/QtWidgets/qlineedit.h \
   /usr/include/qt6/QtWidgets/qmainwindow.h \
   /usr/include/qt6/QtWidgets/qpushbutton.h \
   /usr/include/qt6/QtWidgets/qsizepolicy.h \
@@ -995,6 +1014,7 @@ CMakeFiles/QtApp.dir/QtApp_autogen/mocs_compilation.cpp.o: QtApp_autogen/mocs_co
   /usr/include/qt6/QtCore/qglobalstatic.h \
   /usr/include/qt6/QtCore/qhash.h \
   /usr/include/qt6/QtCore/qhashfunctions.h \
+  /usr/include/qt6/QtCore/qiodevice.h \
   /usr/include/qt6/QtCore/qiodevicebase.h \
   /usr/include/qt6/QtCore/qiterable.h \
   /usr/include/qt6/QtCore/qiterator.h \
@@ -1065,6 +1085,7 @@ CMakeFiles/QtApp.dir/QtApp_autogen/mocs_compilation.cpp.o: QtApp_autogen/mocs_co
   /usr/include/qt6/QtCore/qtversionchecks.h \
   /usr/include/qt6/QtCore/qtypeinfo.h \
   /usr/include/qt6/QtCore/qtypes.h \
+  /usr/include/qt6/QtCore/qurl.h \
   /usr/include/qt6/QtCore/qutf8stringview.h \
   /usr/include/qt6/QtCore/qvariant.h \
   /usr/include/qt6/QtCore/qvarlengtharray.h \
@@ -1084,19 +1105,39 @@ CMakeFiles/QtApp.dir/QtApp_autogen/mocs_compilation.cpp.o: QtApp_autogen/mocs_co
   /usr/include/qt6/QtGui/qkeysequence.h \
   /usr/include/qt6/QtGui/qpaintdevice.h \
   /usr/include/qt6/QtGui/qpalette.h \
+  /usr/include/qt6/QtGui/qpen.h \
+  /usr/include/qt6/QtGui/qpicture.h \
   /usr/include/qt6/QtGui/qpixelformat.h \
   /usr/include/qt6/QtGui/qpixmap.h \
   /usr/include/qt6/QtGui/qpolygon.h \
   /usr/include/qt6/QtGui/qregion.h \
   /usr/include/qt6/QtGui/qrgb.h \
   /usr/include/qt6/QtGui/qrgba64.h \
+  /usr/include/qt6/QtGui/qtextcursor.h \
+  /usr/include/qt6/QtGui/qtextdocument.h \
+  /usr/include/qt6/QtGui/qtextformat.h \
+  /usr/include/qt6/QtGui/qtextoption.h \
   /usr/include/qt6/QtGui/qtgui-config.h \
   /usr/include/qt6/QtGui/qtguiexports.h \
   /usr/include/qt6/QtGui/qtguiglobal.h \
   /usr/include/qt6/QtGui/qtransform.h \
   /usr/include/qt6/QtGui/qwindowdefs.h \
+  /usr/include/qt6/QtWidgets/QLabel \
+  /usr/include/qt6/QtWidgets/QLineEdit \
   /usr/include/qt6/QtWidgets/QMainWindow \
+  /usr/include/qt6/QtWidgets/QPushButton \
+  /usr/include/qt6/QtWidgets/QVBoxLayout \
+  /usr/include/qt6/QtWidgets/QWidget \
+  /usr/include/qt6/QtWidgets/qabstractbutton.h \
+  /usr/include/qt6/QtWidgets/qboxlayout.h \
+  /usr/include/qt6/QtWidgets/qframe.h \
+  /usr/include/qt6/QtWidgets/qgridlayout.h \
+  /usr/include/qt6/QtWidgets/qlabel.h \
+  /usr/include/qt6/QtWidgets/qlayout.h \
+  /usr/include/qt6/QtWidgets/qlayoutitem.h \
+  /usr/include/qt6/QtWidgets/qlineedit.h \
   /usr/include/qt6/QtWidgets/qmainwindow.h \
+  /usr/include/qt6/QtWidgets/qpushbutton.h \
   /usr/include/qt6/QtWidgets/qsizepolicy.h \
   /usr/include/qt6/QtWidgets/qtabwidget.h \
   /usr/include/qt6/QtWidgets/qtwidgets-config.h \
@@ -1438,6 +1479,7 @@ CMakeFiles/QtApp.dir/main.cpp.o: /home/elik565/Documents/Qt/Qt_project/main.cpp 
   /usr/include/qt6/QtCore/qglobalstatic.h \
   /usr/include/qt6/QtCore/qhash.h \
   /usr/include/qt6/QtCore/qhashfunctions.h \
+  /usr/include/qt6/QtCore/qiodevice.h \
   /usr/include/qt6/QtCore/qiodevicebase.h \
   /usr/include/qt6/QtCore/qiterable.h \
   /usr/include/qt6/QtCore/qiterator.h \
@@ -1509,6 +1551,7 @@ CMakeFiles/QtApp.dir/main.cpp.o: /home/elik565/Documents/Qt/Qt_project/main.cpp 
   /usr/include/qt6/QtCore/qtversionchecks.h \
   /usr/include/qt6/QtCore/qtypeinfo.h \
   /usr/include/qt6/QtCore/qtypes.h \
+  /usr/include/qt6/QtCore/qurl.h \
   /usr/include/qt6/QtCore/qutf8stringview.h \
   /usr/include/qt6/QtCore/qvariant.h \
   /usr/include/qt6/QtCore/qvarlengtharray.h \
@@ -1531,21 +1574,41 @@ CMakeFiles/QtApp.dir/main.cpp.o: /home/elik565/Documents/Qt/Qt_project/main.cpp 
   /usr/include/qt6/QtGui/qkeysequence.h \
   /usr/include/qt6/QtGui/qpaintdevice.h \
   /usr/include/qt6/QtGui/qpalette.h \
+  /usr/include/qt6/QtGui/qpen.h \
+  /usr/include/qt6/QtGui/qpicture.h \
   /usr/include/qt6/QtGui/qpixelformat.h \
   /usr/include/qt6/QtGui/qpixmap.h \
   /usr/include/qt6/QtGui/qpolygon.h \
   /usr/include/qt6/QtGui/qregion.h \
   /usr/include/qt6/QtGui/qrgb.h \
   /usr/include/qt6/QtGui/qrgba64.h \
+  /usr/include/qt6/QtGui/qtextcursor.h \
+  /usr/include/qt6/QtGui/qtextdocument.h \
+  /usr/include/qt6/QtGui/qtextformat.h \
+  /usr/include/qt6/QtGui/qtextoption.h \
   /usr/include/qt6/QtGui/qtgui-config.h \
   /usr/include/qt6/QtGui/qtguiexports.h \
   /usr/include/qt6/QtGui/qtguiglobal.h \
   /usr/include/qt6/QtGui/qtransform.h \
   /usr/include/qt6/QtGui/qwindowdefs.h \
   /usr/include/qt6/QtWidgets/QApplication \
+  /usr/include/qt6/QtWidgets/QLabel \
+  /usr/include/qt6/QtWidgets/QLineEdit \
   /usr/include/qt6/QtWidgets/QMainWindow \
+  /usr/include/qt6/QtWidgets/QPushButton \
+  /usr/include/qt6/QtWidgets/QVBoxLayout \
+  /usr/include/qt6/QtWidgets/QWidget \
+  /usr/include/qt6/QtWidgets/qabstractbutton.h \
   /usr/include/qt6/QtWidgets/qapplication.h \
+  /usr/include/qt6/QtWidgets/qboxlayout.h \
+  /usr/include/qt6/QtWidgets/qframe.h \
+  /usr/include/qt6/QtWidgets/qgridlayout.h \
+  /usr/include/qt6/QtWidgets/qlabel.h \
+  /usr/include/qt6/QtWidgets/qlayout.h \
+  /usr/include/qt6/QtWidgets/qlayoutitem.h \
+  /usr/include/qt6/QtWidgets/qlineedit.h \
   /usr/include/qt6/QtWidgets/qmainwindow.h \
+  /usr/include/qt6/QtWidgets/qpushbutton.h \
   /usr/include/qt6/QtWidgets/qsizepolicy.h \
   /usr/include/qt6/QtWidgets/qtabwidget.h \
   /usr/include/qt6/QtWidgets/qtwidgets-config.h \
@@ -1881,6 +1944,7 @@ CMakeFiles/QtApp.dir/main_window.cpp.o: /home/elik565/Documents/Qt/Qt_project/ma
   /usr/include/qt6/QtCore/qglobalstatic.h \
   /usr/include/qt6/QtCore/qhash.h \
   /usr/include/qt6/QtCore/qhashfunctions.h \
+  /usr/include/qt6/QtCore/qiodevice.h \
   /usr/include/qt6/QtCore/qiodevicebase.h \
   /usr/include/qt6/QtCore/qiterable.h \
   /usr/include/qt6/QtCore/qiterator.h \
@@ -1950,6 +2014,7 @@ CMakeFiles/QtApp.dir/main_window.cpp.o: /home/elik565/Documents/Qt/Qt_project/ma
   /usr/include/qt6/QtCore/qtversionchecks.h \
   /usr/include/qt6/QtCore/qtypeinfo.h \
   /usr/include/qt6/QtCore/qtypes.h \
+  /usr/include/qt6/QtCore/qurl.h \
   /usr/include/qt6/QtCore/qutf8stringview.h \
   /usr/include/qt6/QtCore/qvariant.h \
   /usr/include/qt6/QtCore/qvarlengtharray.h \
@@ -1969,19 +2034,43 @@ CMakeFiles/QtApp.dir/main_window.cpp.o: /home/elik565/Documents/Qt/Qt_project/ma
   /usr/include/qt6/QtGui/qkeysequence.h \
   /usr/include/qt6/QtGui/qpaintdevice.h \
   /usr/include/qt6/QtGui/qpalette.h \
+  /usr/include/qt6/QtGui/qpen.h \
+  /usr/include/qt6/QtGui/qpicture.h \
   /usr/include/qt6/QtGui/qpixelformat.h \
   /usr/include/qt6/QtGui/qpixmap.h \
   /usr/include/qt6/QtGui/qpolygon.h \
   /usr/include/qt6/QtGui/qregion.h \
   /usr/include/qt6/QtGui/qrgb.h \
   /usr/include/qt6/QtGui/qrgba64.h \
+  /usr/include/qt6/QtGui/qtextcursor.h \
+  /usr/include/qt6/QtGui/qtextdocument.h \
+  /usr/include/qt6/QtGui/qtextformat.h \
+  /usr/include/qt6/QtGui/qtextoption.h \
   /usr/include/qt6/QtGui/qtgui-config.h \
   /usr/include/qt6/QtGui/qtguiexports.h \
   /usr/include/qt6/QtGui/qtguiglobal.h \
   /usr/include/qt6/QtGui/qtransform.h \
   /usr/include/qt6/QtGui/qwindowdefs.h \
+  /usr/include/qt6/QtWidgets/QLabel \
+  /usr/include/qt6/QtWidgets/QLineEdit \
   /usr/include/qt6/QtWidgets/QMainWindow \
+  /usr/include/qt6/QtWidgets/QMessageBox \
+  /usr/include/qt6/QtWidgets/QPushButton \
+  /usr/include/qt6/QtWidgets/QVBoxLayout \
+  /usr/include/qt6/QtWidgets/QWidget \
+  /usr/include/qt6/QtWidgets/qabstractbutton.h \
+  /usr/include/qt6/QtWidgets/qboxlayout.h \
+  /usr/include/qt6/QtWidgets/qdialog.h \
+  /usr/include/qt6/QtWidgets/qdialogbuttonbox.h \
+  /usr/include/qt6/QtWidgets/qframe.h \
+  /usr/include/qt6/QtWidgets/qgridlayout.h \
+  /usr/include/qt6/QtWidgets/qlabel.h \
+  /usr/include/qt6/QtWidgets/qlayout.h \
+  /usr/include/qt6/QtWidgets/qlayoutitem.h \
+  /usr/include/qt6/QtWidgets/qlineedit.h \
   /usr/include/qt6/QtWidgets/qmainwindow.h \
+  /usr/include/qt6/QtWidgets/qmessagebox.h \
+  /usr/include/qt6/QtWidgets/qpushbutton.h \
   /usr/include/qt6/QtWidgets/qsizepolicy.h \
   /usr/include/qt6/QtWidgets/qtabwidget.h \
   /usr/include/qt6/QtWidgets/qtwidgets-config.h \
@@ -2008,6 +2097,8 @@ CMakeFiles/QtApp.dir/main_window.cpp.o: /home/elik565/Documents/Qt/Qt_project/ma
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h \
   /usr/lib/gcc/x86_64-redhat-linux/14/include/syslimits.h
 
+
+/usr/include/qt6/QtWidgets/qdialog.h:
 
 /usr/include/qt6/QtWidgets/qapplication.h:
 
@@ -2079,6 +2170,8 @@ QtApp_autogen/EWIEGA46WW/moc_main_window.cpp:
 
 /usr/share/cmake/Modules/FeatureSummary.cmake:
 
+/usr/include/qt6/QtWidgets/QMessageBox:
+
 /usr/share/cmake/Modules/Compiler/GNU.cmake:
 
 /usr/share/cmake/Modules/Compiler/GNU-C.cmake:
@@ -2136,6 +2229,8 @@ QtApp_autogen/EWIEGA46WW/moc_main_window.cpp:
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake:
+
+/usr/include/qt6/QtWidgets/qdialogbuttonbox.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake:
 
@@ -2211,10 +2306,6 @@ QtApp_autogen/EWIEGA46WW/moc_main_window.cpp:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
 
-/usr/include/qt6/QtCore/qdeadlinetimer.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake:
-
 /usr/lib64/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake:
@@ -2238,6 +2329,42 @@ QtApp_autogen/EWIEGA46WW/moc_main_window.cpp:
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake:
+
+/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QTsLibPluginTargets-relwithdebinfo.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake:
+
+/usr/include/qt6/QtWidgets/qboxlayout.h:
 
 /usr/include/linux/errno.h:
 
@@ -2273,8 +2400,6 @@ QtApp_autogen/EWIEGA46WW/moc_main_window.cpp:
 
 /usr/include/c++/14/tr1/hypergeometric.tcc:
 
-/usr/include/c++/14/debug/debug.h:
-
 /usr/lib64/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake:
 
 /usr/include/qt6/QtGui/qcolor.h:
@@ -2287,8 +2412,6 @@ QtApp_autogen/EWIEGA46WW/moc_main_window.cpp:
 
 /usr/include/c++/14/tr1/exp_integral.tcc:
 
-/usr/lib64/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake:
-
 /usr/include/c++/14/bits/move.h:
 
 /usr/include/c++/14/x86_64-redhat-linux/bits/c++allocator.h:
@@ -2299,9 +2422,9 @@ CMakeFiles/3.30.7/CMakeSystem.cmake:
 
 /home/elik565/Documents/Qt/Qt_project/main_window.cpp:
 
-/usr/include/qt6/QtCore/qbytearrayalgorithms.h:
-
 /usr/include/c++/14/utility:
+
+/usr/include/qt6/QtWidgets/QLineEdit:
 
 /usr/include/c++/14/memory:
 
@@ -2326,6 +2449,8 @@ CMakeFiles/3.30.7/CMakeSystem.cmake:
 /usr/share/cmake/Modules/FindThreads.cmake:
 
 /usr/include/qt6/QtCore/qforeach.h:
+
+/usr/include/qt6/QtWidgets/qmessagebox.h:
 
 /usr/include/c++/14/bits/postypes.h:
 
@@ -2386,8 +2511,6 @@ CMakeFiles/3.30.7/CMakeSystem.cmake:
 /usr/lib64/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake:
 
 /usr/include/c++/14/bits/version.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake:
 
 /usr/include/c++/14/bits/vector.tcc:
 
@@ -2515,6 +2638,12 @@ QtApp_autogen/mocs_compilation.cpp:
 
 /usr/lib64/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
 
+/usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake:
+
+/usr/include/c++/14/bits/requires_hosted.h:
+
 /usr/include/qt6/QtCore/qttypetraits.h:
 
 /usr/lib64/cmake/Qt6/Qt6Dependencies.cmake:
@@ -2533,15 +2662,11 @@ QtApp_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/14/x86_64-redhat-linux/bits/gthr-default.h:
 
-/usr/include/bits/types/__FILE.h:
-
 /usr/include/qt6/QtCore/q20iterator.h:
 
 /usr/include/features.h:
 
 /usr/include/c++/14/bits/node_handle.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake:
 
 /usr/include/asm/errno.h:
 
@@ -2567,6 +2692,8 @@ QtApp_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/14/bits/exception_ptr.h:
 
+/usr/include/qt6/QtCore/qiodevice.h:
+
 /usr/include/qt6/QtCore/qtaggedpointer.h:
 
 /usr/include/endian.h:
@@ -2581,11 +2708,17 @@ QtApp_autogen/mocs_compilation.cpp:
 
 /usr/include/bits/types/error_t.h:
 
+/usr/lib64/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake:
+
+/usr/include/qt6/QtCore/qstringalgorithms.h:
+
 /usr/lib64/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake:
 
 /usr/include/qt6/QtGui/qfontinfo.h:
+
+/usr/include/qt6/QtGui/qtextdocument.h:
 
 /usr/include/c++/14/system_error:
 
@@ -2677,6 +2810,12 @@ CMakeFiles/3.30.7/CMakeCCompiler.cmake:
 
 /usr/include/bits/time.h:
 
+/usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake:
+
+/usr/include/c++/14/bits/stl_iterator.h:
+
 /usr/include/c++/14/tr1/special_function_util.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6GuiConfig.cmake:
@@ -2692,6 +2831,8 @@ CMakeFiles/3.30.7/CMakeCCompiler.cmake:
 /usr/include/c++/14/ext/concurrence.h:
 
 /usr/include/qt6/QtCore/qmetatype.h:
+
+/usr/include/qt6/QtWidgets/QWidget:
 
 QtApp_autogen/moc_predefs.h:
 
@@ -2723,17 +2864,21 @@ QtApp_autogen/moc_predefs.h:
 
 /usr/include/c++/14/bits/erase_if.h:
 
+/usr/include/bits/types/__FILE.h:
+
+/usr/include/qt6/QtWidgets/QLabel:
+
 /usr/include/qt6/QtCore/qtconfiginclude.h:
 
 /usr/include/qt6/QtCore/qtypes.h:
 
 /usr/include/c++/14/tr1/poly_hermite.tcc:
 
-/usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake:
-
 /usr/include/c++/14/cassert:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake:
+
+/usr/include/bits/struct_mutex.h:
 
 /usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
 
@@ -2778,6 +2923,10 @@ QtApp_autogen/moc_predefs.h:
 /usr/include/bits/timex.h:
 
 /usr/include/bits/pthread_stack_min-dynamic.h:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake:
+
+/usr/include/bits/types/mbstate_t.h:
 
 /usr/include/bits/sched.h:
 
@@ -2849,8 +2998,6 @@ QtApp_autogen/moc_predefs.h:
 
 /usr/include/c++/14/bits/chrono.h:
 
-/usr/include/qt6/QtCore/qmath.h:
-
 /usr/include/qt6/QtWidgets/qsizepolicy.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake:
@@ -2883,6 +3030,8 @@ QtApp_autogen/moc_predefs.h:
 
 /usr/include/c++/14/tr1/legendre_function.tcc:
 
+/usr/include/qt6/QtWidgets/qlayout.h:
+
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6/QtFeatureCommon.cmake:
@@ -2897,11 +3046,15 @@ QtApp_autogen/moc_predefs.h:
 
 /usr/include/bits/types/__locale_t.h:
 
+/usr/include/qt6/QtWidgets/qlayoutitem.h:
+
 /usr/include/c++/14/bits/ios_base.h:
 
 /usr/include/c++/14/pstl/glue_numeric_defs.h:
 
 /usr/include/bits/types/sigset_t.h:
+
+/usr/include/qt6/QtWidgets/qgridlayout.h:
 
 /usr/include/c++/14/bits/atomic_lockfree_defines.h:
 
@@ -3031,6 +3184,10 @@ CMakeFiles/3.30.7/CMakeCXXCompiler.cmake:
 
 /usr/include/qt6/QtCore/qmalloc.h:
 
+/usr/include/c++/14/debug/debug.h:
+
+/usr/include/qt6/QtGui/qpen.h:
+
 /usr/include/qt6/QtGui/qrgba64.h:
 
 /usr/include/qt6/QtCore/qmap.h:
@@ -3101,8 +3258,6 @@ CMakeFiles/3.30.7/CMakeCXXCompiler.cmake:
 
 /usr/include/qt6/QtCore/qtconfigmacros.h:
 
-/usr/lib64/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake:
-
 /usr/include/qt6/QtCore/qtcore-config.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake:
@@ -3138,6 +3293,8 @@ CMakeFiles/3.30.7/CMakeCXXCompiler.cmake:
 /usr/include/c++/14/bit:
 
 /usr/include/qt6/QtCore/qtversion.h:
+
+/usr/include/qt6/QtCore/qurl.h:
 
 /usr/include/qt6/QtCore/qvarlengtharray.h:
 
@@ -3185,11 +3342,19 @@ CMakeFiles/3.30.7/CMakeCXXCompiler.cmake:
 
 /home/elik565/Documents/Qt/Qt_project/main.cpp:
 
+/usr/include/qt6/QtGui/qpicture.h:
+
 /usr/include/qt6/QtGui/qrgb.h:
 
 /usr/include/bits/local_lim.h:
 
 /usr/lib64/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
+
+/usr/include/qt6/QtCore/qmath.h:
+
+/usr/include/qt6/QtGui/qtextformat.h:
+
+/usr/include/qt6/QtGui/qtextoption.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake:
 
@@ -3199,11 +3364,27 @@ CMakeFiles/3.30.7/CMakeCXXCompiler.cmake:
 
 /usr/include/qt6/QtGui/qtguiexports.h:
 
+/usr/include/qt6/QtWidgets/QPushButton:
+
+/usr/include/qt6/QtCore/qdeadlinetimer.h:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake:
+
+/usr/include/qt6/QtWidgets/QVBoxLayout:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake:
+
+/usr/include/qt6/QtCore/qbytearrayalgorithms.h:
+
+/usr/include/qt6/QtWidgets/qframe.h:
+
+/usr/include/qt6/QtWidgets/qlabel.h:
+
 /usr/include/qt6/QtGui/qfont.h:
 
 /usr/include/qt6/QtGui/qtguiglobal.h:
 
-/usr/include/qt6/QtWidgets/QPushButton:
+/usr/include/qt6/QtWidgets/qlineedit.h:
 
 /usr/include/c++/14/bits/stl_iterator_base_types.h:
 
@@ -3237,13 +3418,7 @@ CMakeFiles/3.30.7/CMakeCXXCompiler.cmake:
 
 /usr/include/stdlib.h:
 
-/usr/include/qt6/QtCore/qstringalgorithms.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake:
-
 /usr/include/sys/select.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake:
 
 /usr/include/qt6/QtCore/qlocale.h:
 
@@ -3339,8 +3514,6 @@ CMakeFiles/3.30.7/CMakeCXXCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Core/Qt6CoreMacros.cmake:
 
-/usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake:
-
 /usr/include/qt6/QtCore/q20memory.h:
 
 /usr/lib64/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake:
@@ -3360,6 +3533,8 @@ CMakeFiles/3.30.7/CMakeCXXCompiler.cmake:
 /usr/lib64/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6DBus/Qt6DBusDependencies.cmake:
+
+/usr/include/qt6/QtGui/qtextcursor.h:
 
 /usr/lib64/cmake/Qt6DBus/Qt6DBusTargets.cmake:
 
@@ -3391,8 +3566,6 @@ CMakeFiles/3.30.7/CMakeCXXCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake:
 
-/usr/lib64/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake:
-
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake:
@@ -3406,41 +3579,3 @@ CMakeFiles/3.30.7/CMakeCXXCompiler.cmake:
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
-
-/usr/include/c++/14/bits/requires_hosted.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake:
-
-/usr/include/c++/14/bits/stl_iterator.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake:
-
-/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QTsLibPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake:
-
-/usr/include/bits/types/mbstate_t.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake:

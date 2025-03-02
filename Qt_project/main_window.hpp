@@ -2,6 +2,10 @@
 
 #include <QMainWindow>
 #include <QPushButton>
+#include <QLineEdit>
+#include <QLabel>
+#include <QVBoxLayout>
+#include <QWidget>
 
 class MainWindow : public QMainWindow {
     Q_OBJECT  // эта макросная конструкция обязательна, если класс использует сигналы и слоты Qt
@@ -11,9 +15,13 @@ public:
     // если parent == nullptr, то MainWindow - главное окно без родителя
 
 private:
-    QPushButton *button;  // указатель на кнопку
+    QPushButton *message_button;  // указатель на кнопку для вывода сообщения
+    QPushButton *text_button;  // указатель на кнопку для отображения текста
+    QLabel *label;  // указатель на лейбл для отображения текста
+    QLineEdit *line_edit;  // указатель на строку для ввода
 
 private slots:
-    void onButtonClicked();  // обработчик нажатия на кнопку
+    void onMessageButtonClicked();  // обработчик нажатия на message_button
+    void onTextButtonClicked();  // обработчик нажатия на text_button
 };
 
