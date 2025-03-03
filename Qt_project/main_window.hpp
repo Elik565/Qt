@@ -21,6 +21,9 @@ private:
     Ui::MainWindow *ui;  // указатель на интерфейс
 
 private slots:
-    void on_TextButton_clicked();
+    void on_MessageButton_clicked();
+    void on_SaveButton_clicked();
+    void on_LoadButton_clicked();
+    void on_EraseButton_clicked();
 };
 
