@@ -9,6 +9,9 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     ui->setupUi(this);  // настраиваем интерфейс из .ui
 
     setWindowTitle("Простое Qt-приложение");
+
+    ui->tabWidget->setTabText(0, "Файлы");
+    ui->tabWidget->setTabText(1, "Сеть");
 }
 
 // дескриптор

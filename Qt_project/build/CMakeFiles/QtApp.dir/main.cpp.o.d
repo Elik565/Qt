@@ -345,6 +345,8 @@ CMakeFiles/QtApp.dir/main.cpp.o: \
  /usr/include/qt6/QtWidgets/QLineEdit \
  /usr/include/qt6/QtWidgets/QMainWindow \
  /usr/include/qt6/QtWidgets/QPushButton \
+ /usr/include/qt6/QtWidgets/QTabWidget \
+ /usr/include/qt6/QtWidgets/qtabwidget.h \
  /usr/include/qt6/QtWidgets/QTextBrowser \
  /usr/include/qt6/QtWidgets/qtextbrowser.h \
  /usr/include/qt6/QtWidgets/qtextedit.h \
