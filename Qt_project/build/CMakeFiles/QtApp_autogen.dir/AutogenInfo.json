@@ -378,6 +378,12 @@
 			"MU",
 			"EWIEGA46WW/moc_main_window.cpp",
 			null
+		],
+		[
+			"/home/elik565/Documents/Qt/Qt_project/ui_main_window.h",
+			"MU",
+			"EWIEGA46WW/moc_ui_main_window.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],

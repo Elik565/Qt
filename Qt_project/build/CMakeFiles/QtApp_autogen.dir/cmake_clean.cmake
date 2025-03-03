@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/QtApp_autogen"
+  "QtApp_autogen/include/ui_main_window.h"
   "QtApp_autogen/mocs_compilation.cpp"
   "QtApp_autogen/timestamp"
 )

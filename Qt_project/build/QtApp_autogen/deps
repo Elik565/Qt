@@ -7,6 +7,7 @@ QtApp_autogen/timestamp: \
 	/home/elik565/Documents/Qt/Qt_project/main.cpp \
 	/home/elik565/Documents/Qt/Qt_project/main_window.cpp \
 	/home/elik565/Documents/Qt/Qt_project/main_window.hpp \
+	/home/elik565/Documents/Qt/Qt_project/ui_main_window.h \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/errno-base.h \
 	/usr/include/asm-generic/errno.h \
@@ -700,4 +701,5 @@ QtApp_autogen/timestamp: \
 	/usr/share/cmake/Modules/Platform/Linux-Initialize.cmake \
 	/usr/share/cmake/Modules/Platform/Linux.cmake \
 	/usr/share/cmake/Modules/Platform/UnixPaths.cmake \
+	/home/elik565/Documents/Qt/Qt_project/main_window.ui \
 	/usr/bin/cmake

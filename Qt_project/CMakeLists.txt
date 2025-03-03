@@ -12,7 +12,7 @@ set(CMAKE_AUTOMOC ON)  # генерация moc-файлов
 # UI-файл — это XML-файл, который описывает графический интерфейс пользователя (UI) приложения. Он создается с помощью Qt Designer и содержит информацию о расположении и свойствах виджетов, таких как кнопки, текстовые поля, метки и другие элементы интерфейса.
 set(CMAKE_AUTOUIC ON)  # генерация ui файлов
 
-add_executable(QtApp main.cpp main_window.cpp)
+add_executable(QtApp main.cpp main_window.cpp main_window.hpp main_window.ui ui_main_window.h)
 
-target_link_libraries(QtApp PRIVATE Qt6::Widgets)  # подключаем библиотеки Qt
+target_link_libraries(QtApp PRIVATE Qt6::Widgets Qt6::Core)  # подключаем библиотеки Qt
 

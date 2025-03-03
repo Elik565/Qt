@@ -80,8 +80,8 @@ clean: CMakeFiles/QtApp_autogen.dir/clean
 # Target rules for target CMakeFiles/QtApp.dir
 
 # All Build rule for target.
-CMakeFiles/QtApp.dir/all: CMakeFiles/QtApp_autogen_timestamp_deps.dir/all
 CMakeFiles/QtApp.dir/all: CMakeFiles/QtApp_autogen.dir/all
+CMakeFiles/QtApp.dir/all: CMakeFiles/QtApp_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtApp.dir/build.make CMakeFiles/QtApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtApp.dir/build.make CMakeFiles/QtApp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/elik565/Documents/Qt/Qt_project/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target QtApp"
