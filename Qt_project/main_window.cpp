@@ -1,6 +1,7 @@
 #include "main_window.hpp"
 #include <QMessageBox>
 #include <QFile>
+#include <QFileDialog>
 
 // создаем объект интерфейса ui
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow) {
@@ -27,7 +28,8 @@ void MainWindow::on_MessageButton_clicked() {
 
 void MainWindow::on_SaveButton_clicked() {
     if (ui->lineEdit->text() != "") {
-        QFile file("text.txt");
+        QString file_path = QFileDialog::getOpenFileName(this, "Выберите файл", QDir::homePath(), "*.txt");
+        QFile file(file_path);
         if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
             QTextStream fout(&file);
             fout << ui->lineEdit->text();
@@ -44,7 +46,8 @@ void MainWindow::on_SaveButton_clicked() {
 }
 
 void MainWindow::on_LoadButton_clicked() {
-    QFile file("text.txt");
+    QString file_path = QFileDialog::getOpenFileName(this, "Выберите файл", QDir::homePath(), "*.txt");
+    QFile file(file_path);
     if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
         QTextStream fin(&file);
         ui->textBrowser->setPlainText(fin.readAll());
