@@ -6,6 +6,9 @@
 #include <QLabel>
 #include <QVBoxLayout>
 #include <QWidget>
+#include <QNetworkAccessManager>
+#include <QNetworkRequest>
+#include <QNetworkReply>
 #include <ui_main_window.h>
 
 class MainWindow : public QMainWindow {
@@ -19,11 +22,17 @@ public:
 
 private:
     Ui::MainWindow *ui;  // указатель на интерфейс
+    QNetworkAccessManager *networkManager;  // указатель на объект, управляющий сетевыми запросами
 
 private slots:
+    // файлы
     void on_MessageButton_clicked();
     void on_SaveButton_clicked();
     void on_LoadButton_clicked();
     void on_EraseButton_clicked();
+
+    // сеть
+    void on_RequestButton_clicked();
+    void handleReply(QNetworkReply *reply);
 };
 

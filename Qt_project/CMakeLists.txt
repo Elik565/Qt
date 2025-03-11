@@ -4,7 +4,7 @@ project(QtApp)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 REQUIRED COMPONENTS Widgets)  # находим Qt
+find_package(Qt6 REQUIRED COMPONENTS Widgets Network)  # находим Qt
 
 # MOC (Meta-Object Compiler) - это инструмент, который генерирует C++ код для поддержки механизмов Qt. Когда компилятор видит Q_OBJECT в классе, CMake вызывает moc, который создает дополнительный .cpp файл (например, moc_mainwindow.cpp). Этот файл добавляется в сборку и обеспечивает работу Qt-механизмов.
 set(CMAKE_AUTOMOC ON)  # генерация moc-файлов
@@ -14,5 +14,5 @@ set(CMAKE_AUTOUIC ON)  # генерация ui файлов
 
 add_executable(QtApp main.cpp main_window.cpp main_window.hpp main_window.ui ui_main_window.h)
 
-target_link_libraries(QtApp PRIVATE Qt6::Widgets Qt6::Core)  # подключаем библиотеки Qt
+target_link_libraries(QtApp PRIVATE Qt6::Widgets Qt6::Core Qt6::Network)  # подключаем библиотеки Qt
 

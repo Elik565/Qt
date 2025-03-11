@@ -196,6 +196,10 @@
 				},
 				{
 					"backtrace" : 2,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 2,
 					"define" : "QT_NO_DEBUG"
 				},
 				{
@@ -233,6 +237,11 @@
 					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "/usr/include/qt6/QtGui"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtNetwork"
 				}
 			],
 			"language" : "CXX",
@@ -256,11 +265,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "QtApp_autogen::@6890427a1f51a3e7e1df"
+			"id" : "QtApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "QtApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "QtApp_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "QtApp::@6890427a1f51a3e7e1df",
@@ -275,6 +284,11 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "/usr/lib64/libQt6Widgets.so.6.8.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libQt6Network.so.6.8.2",
 				"role" : "libraries"
 			},
 			{
@@ -323,7 +337,8 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5
+				5,
+				6
 			]
 		},
 		{
@@ -331,14 +346,14 @@
 			"sourceIndexes" : 
 			[
 				4,
-				6
+				7
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				8
 			]
 		}
 	],
@@ -372,6 +387,11 @@
 			"backtrace" : 1,
 			"path" : "main_window.ui",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ui_main_window.h",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,

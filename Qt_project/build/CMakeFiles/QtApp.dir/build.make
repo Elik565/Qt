@@ -132,6 +132,7 @@ QtApp: CMakeFiles/QtApp.dir/main.cpp.o
 QtApp: CMakeFiles/QtApp.dir/main_window.cpp.o
 QtApp: CMakeFiles/QtApp.dir/build.make
 QtApp: /usr/lib64/libQt6Widgets.so.6.8.2
+QtApp: /usr/lib64/libQt6Network.so.6.8.2
 QtApp: /usr/lib64/libQt6Gui.so.6.8.2
 QtApp: /usr/lib64/libGLX.so
 QtApp: /usr/lib64/libOpenGL.so
