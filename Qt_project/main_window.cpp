@@ -2,7 +2,7 @@
 #include <QMessageBox>
 #include <QFile>
 #include <QFileDialog>
-#include <QNetworkReply>
+#include <QJsonDocument>
 
 // создаем объект интерфейса ui
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow) {
@@ -70,19 +70,19 @@ void MainWindow::on_LoadButton_clicked() {
     }
 }
 
-void MainWindow::on_EraseButton_clicked() {
+void MainWindow::on_FileEraseButton_clicked() {
     ui->FileTextBrowser->clear();
 }
 
 /*****Сеть*****/
-void MainWindow::on_RequestButton_clicked() {
+void MainWindow::on_GetButton_clicked() {
     QUrl url = ui->NetworkLineEdit->text();
     if (url.isValid() && !url.scheme().isEmpty()) {
         QNetworkRequest request(url);
         networkManager->get(request);
     }
     else {
-        QMessageBox::warning(this, "Ошибка!", "Неверный адрес url!");
+        QMessageBox::warning(this, "Ошибка!", "Неверный URL!");
     }
 }
 
@@ -96,5 +96,34 @@ void MainWindow::handleReply(QNetworkReply *reply) {
         QMessageBox::warning(this, "Ошибка!", "Ответ на запрос с ошибкой!");
     }
     reply->deleteLater();  // удаляет, когда больше не нужен
+}
+
+void MainWindow::on_NetworkEraseButton_clicked() {
+    ui->NetworkTextBrowser->clear();
+}
+
+void MainWindow::on_PostButton_clicked() {
+    QUrl url = ui->NetworkLineEdit->text();
+    if (url.isValid() && !url.scheme().isEmpty()) {
+        // заполняем данными json
+        QJsonObject json;
+        json["name"] = "Ivan";
+        json["age"] = 20;
+
+        sendPostRequest(url, json);  // функция отправки post-запроса
+    }
+    else {
+        QMessageBox::warning(this, "Ошибка!", "Неверный URL!");
+    }
+}
+
+void MainWindow::sendPostRequest(const QUrl& url, const QJsonObject& json_data) {
+    QNetworkRequest request(url);  // создаем сетевой запрос для данного url
+
+    // устанавливаем заголовок в запросе, т.к. серверу нужно знать, в каком формате приходят данные
+    request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");  //
+
+    QByteArray post_data = QJsonDocument(json_data).toJson();  // конвертируем в байтовый массив
+    networkManager->post(request, post_data);  // выполняет post-запрос
 }
 

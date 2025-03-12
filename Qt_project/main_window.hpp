@@ -9,6 +9,7 @@
 #include <QNetworkAccessManager>
 #include <QNetworkRequest>
 #include <QNetworkReply>
+#include <QJsonObject>
 #include <ui_main_window.h>
 
 class MainWindow : public QMainWindow {
@@ -24,15 +25,19 @@ private:
     Ui::MainWindow *ui;  // указатель на интерфейс
     QNetworkAccessManager *networkManager;  // указатель на объект, управляющий сетевыми запросами
 
+    void sendPostRequest(const QUrl& url, const QJsonObject& json_data);
+
 private slots:
     // файлы
     void on_MessageButton_clicked();
     void on_SaveButton_clicked();
     void on_LoadButton_clicked();
-    void on_EraseButton_clicked();
+    void on_FileEraseButton_clicked();
 
     // сеть
-    void on_RequestButton_clicked();
+    void on_GetButton_clicked();
     void handleReply(QNetworkReply *reply);
+    void on_NetworkEraseButton_clicked();
+    void on_PostButton_clicked();
 };
 

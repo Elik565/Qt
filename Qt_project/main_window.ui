@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>631</width>
-    <height>428</height>
+    <width>627</width>
+    <height>400</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
       <x>0</x>
       <y>0</y>
       <width>621</width>
-      <height>421</height>
+      <height>391</height>
      </rect>
     </property>
     <property name="toolTip">
@@ -72,7 +72,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="EraseButton">
+          <widget class="QPushButton" name="FileEraseButton">
            <property name="text">
             <string>Очистить</string>
            </property>
@@ -170,7 +170,7 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>50</y>
+        <y>60</y>
         <width>611</width>
         <height>41</height>
        </rect>
@@ -178,10 +178,17 @@
       <layout class="QVBoxLayout" name="verticalLayout_4">
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_6">
-         <item alignment="Qt::AlignmentFlag::AlignLeft">
-          <widget class="QPushButton" name="RequestButton">
+         <item>
+          <widget class="QPushButton" name="GetButton">
            <property name="text">
-            <string>Поиск</string>
+            <string>GET</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="PostButton">
+           <property name="text">
+            <string>POST</string>
            </property>
           </widget>
          </item>
@@ -193,9 +200,9 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>90</y>
+        <y>110</y>
         <width>611</width>
-        <height>131</height>
+        <height>191</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_5">
@@ -208,6 +215,13 @@
        </item>
        <item>
         <widget class="QTextBrowser" name="NetworkTextBrowser"/>
+       </item>
+       <item alignment="Qt::AlignmentFlag::AlignLeft">
+        <widget class="QPushButton" name="NetworkEraseButton">
+         <property name="text">
+          <string>Очистить</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </widget>

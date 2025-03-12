@@ -35,7 +35,7 @@ public:
     QTextBrowser *FileTextBrowser;
     QHBoxLayout *horizontalLayout_3;
     QPushButton *LoadButton;
-    QPushButton *EraseButton;
+    QPushButton *FileEraseButton;
     QWidget *verticalLayoutWidget_2;
     QVBoxLayout *verticalLayout;
     QHBoxLayout *horizontalLayout_2;
@@ -53,22 +53,24 @@ public:
     QWidget *verticalLayoutWidget_4;
     QVBoxLayout *verticalLayout_4;
     QHBoxLayout *horizontalLayout_6;
-    QPushButton *RequestButton;
+    QPushButton *GetButton;
+    QPushButton *PostButton;
     QWidget *verticalLayoutWidget_5;
     QVBoxLayout *verticalLayout_5;
     QLabel *label_4;
     QTextBrowser *NetworkTextBrowser;
+    QPushButton *NetworkEraseButton;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(631, 428);
+        MainWindow->resize(627, 400);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         tabWidget = new QTabWidget(centralwidget);
         tabWidget->setObjectName("tabWidget");
-        tabWidget->setGeometry(QRect(0, 0, 621, 421));
+        tabWidget->setGeometry(QRect(0, 0, 621, 391));
         tabWidget->setAutoFillBackground(true);
         tab_1 = new QWidget();
         tab_1->setObjectName("tab_1");
@@ -96,10 +98,10 @@ public:
 
         horizontalLayout_3->addWidget(LoadButton);
 
-        EraseButton = new QPushButton(verticalLayoutWidget);
-        EraseButton->setObjectName("EraseButton");
+        FileEraseButton = new QPushButton(verticalLayoutWidget);
+        FileEraseButton->setObjectName("FileEraseButton");
 
-        horizontalLayout_3->addWidget(EraseButton);
+        horizontalLayout_3->addWidget(FileEraseButton);
 
 
         verticalLayout_2->addLayout(horizontalLayout_3);
@@ -168,23 +170,28 @@ public:
 
         verticalLayoutWidget_4 = new QWidget(tab_3);
         verticalLayoutWidget_4->setObjectName("verticalLayoutWidget_4");
-        verticalLayoutWidget_4->setGeometry(QRect(0, 50, 611, 41));
+        verticalLayoutWidget_4->setGeometry(QRect(0, 60, 611, 41));
         verticalLayout_4 = new QVBoxLayout(verticalLayoutWidget_4);
         verticalLayout_4->setObjectName("verticalLayout_4");
         verticalLayout_4->setContentsMargins(0, 0, 0, 0);
         horizontalLayout_6 = new QHBoxLayout();
         horizontalLayout_6->setObjectName("horizontalLayout_6");
-        RequestButton = new QPushButton(verticalLayoutWidget_4);
-        RequestButton->setObjectName("RequestButton");
+        GetButton = new QPushButton(verticalLayoutWidget_4);
+        GetButton->setObjectName("GetButton");
 
-        horizontalLayout_6->addWidget(RequestButton, 0, Qt::AlignmentFlag::AlignLeft);
+        horizontalLayout_6->addWidget(GetButton);
+
+        PostButton = new QPushButton(verticalLayoutWidget_4);
+        PostButton->setObjectName("PostButton");
+
+        horizontalLayout_6->addWidget(PostButton);
 
 
         verticalLayout_4->addLayout(horizontalLayout_6);
 
         verticalLayoutWidget_5 = new QWidget(tab_3);
         verticalLayoutWidget_5->setObjectName("verticalLayoutWidget_5");
-        verticalLayoutWidget_5->setGeometry(QRect(0, 90, 611, 131));
+        verticalLayoutWidget_5->setGeometry(QRect(0, 110, 611, 191));
         verticalLayout_5 = new QVBoxLayout(verticalLayoutWidget_5);
         verticalLayout_5->setObjectName("verticalLayout_5");
         verticalLayout_5->setContentsMargins(0, 0, 0, 0);
@@ -197,6 +204,11 @@ public:
         NetworkTextBrowser->setObjectName("NetworkTextBrowser");
 
         verticalLayout_5->addWidget(NetworkTextBrowser);
+
+        NetworkEraseButton = new QPushButton(verticalLayoutWidget_5);
+        NetworkEraseButton->setObjectName("NetworkEraseButton");
+
+        verticalLayout_5->addWidget(NetworkEraseButton, 0, Qt::AlignmentFlag::AlignLeft);
 
         tabWidget->addTab(tab_3, QString());
         MainWindow->setCentralWidget(centralwidget);
@@ -217,14 +229,16 @@ public:
 #endif // QT_CONFIG(tooltip)
         label_2->setText(QCoreApplication::translate("MainWindow", "\320\242\320\265\320\272\321\201\321\202 \320\270\320\267 \321\204\320\260\320\271\320\273\320\260: ", nullptr));
         LoadButton->setText(QCoreApplication::translate("MainWindow", "\320\227\320\260\320\263\321\200\321\203\320\267\320\270\321\202\321\214", nullptr));
-        EraseButton->setText(QCoreApplication::translate("MainWindow", "\320\236\321\207\320\270\321\201\321\202\320\270\321\202\321\214", nullptr));
+        FileEraseButton->setText(QCoreApplication::translate("MainWindow", "\320\236\321\207\320\270\321\201\321\202\320\270\321\202\321\214", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \321\202\320\265\320\272\321\201\321\202: ", nullptr));
         MessageButton->setText(QCoreApplication::translate("MainWindow", "\320\237\320\276\320\272\320\260\320\267\320\260\321\202\321\214", nullptr));
         SaveButton->setText(QCoreApplication::translate("MainWindow", "\320\241\320\276\321\205\321\200\320\260\320\275\320\270\321\202\321\214", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_1), QCoreApplication::translate("MainWindow", "Tab 1", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "\320\222\320\262\320\265\320\264\320\270\321\202\320\265 url:", nullptr));
-        RequestButton->setText(QCoreApplication::translate("MainWindow", "\320\237\320\276\320\270\321\201\320\272", nullptr));
+        GetButton->setText(QCoreApplication::translate("MainWindow", "GET", nullptr));
+        PostButton->setText(QCoreApplication::translate("MainWindow", "POST", nullptr));
         label_4->setText(QCoreApplication::translate("MainWindow", "\320\236\321\202\320\262\320\265\321\202 \320\275\320\260 \320\267\320\260\320\277\321\200\320\276\321\201:", nullptr));
+        NetworkEraseButton->setText(QCoreApplication::translate("MainWindow", "\320\236\321\207\320\270\321\201\321\202\320\270\321\202\321\214", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_3), QCoreApplication::translate("MainWindow", "Tab 2", nullptr));
     } // retranslateUi
 
